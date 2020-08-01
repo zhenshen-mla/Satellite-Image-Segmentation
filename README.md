@@ -23,8 +23,8 @@
   numpy  
   torchvision  
   tensorboardX  
-  PyQt5 
-  PyInstaller 
+  PyQt5  
+  PyInstaller  
   
 
 ## Installation
