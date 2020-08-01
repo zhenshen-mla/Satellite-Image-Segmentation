@@ -44,7 +44,7 @@ def main():
         for i, sample in enumerate(train_loader):
             image, target = sample['image'], sample['label']
             image, target = image.cuda(), target.cuda()
-            scheduler(optimizer, i, epoch, best_pred, 0)
+            scheduler(optimizer, i, epoch, best_pred)
             optimizer.zero_grad()
             output = model(image)
             loss = criterion(output, target)
