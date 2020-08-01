@@ -22,9 +22,9 @@
   PyTorch >= 1.0  
   numpy  
   torchvision  
-  tensorboardX
-  PyQt5
-  PyInstaller
+  tensorboardX  
+  PyQt5 
+  PyInstaller 
   
 
 ## Installation
