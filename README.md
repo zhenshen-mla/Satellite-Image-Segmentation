@@ -21,7 +21,7 @@
   
 ## Requirements  
 
-  Python >= 3.0 
+  Python >= 3.0  
   PyTorch >= 1.0  
   numpy  
   torchvision  
@@ -42,4 +42,18 @@
     ```
     pip install tensorboardX matplotlib PyQt5 PyInstaller   
     ```
-  
+
+## Running
+  1. Model training:   
+    ```
+    python train_seg.py   
+    ```   
+  2. Model testing:   
+    ```
+    python test_seg.py   
+    ```
+  3. Package model and front-end interaction:   
+    ```
+    pyinstaller -F interaction.py   
+    ```
+
