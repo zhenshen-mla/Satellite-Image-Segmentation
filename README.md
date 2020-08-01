@@ -13,7 +13,8 @@
   * `/utils/lr_scheduler.py`: learning rate scheduler;
   * `/utils/metrics.py`: evaluation criteria of semantic segmentation;   
   * `/segmentation_model.py`: DeepLabv3 plus structure;
-  * `/train_seg.py & test_seg.py`: model testing and training
+  * `/train_seg.py & test_seg.py`: model testing and training;
+  * `/interaction.py`: the front-end interface;
   
 ## Requirements  
 
