@@ -1,7 +1,7 @@
 import sys
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
-from my_deeplab import DeepLab
+from segmentation_model import DeepLab
 import torch
 import numpy as np
 from PIL import Image
