@@ -6,7 +6,7 @@
   The system realizes the segmentation of high-resolution satellite images, which includes seven categories, namely Urban land, Agricultural land, Pasture land, Forest, Rivers and lakes, Wasteland, Unknown(cloud, fog). The back-end CNNs model adopts the more advanced DeepLabv3 plus structure. In the model, the prediction is the same size as the input. Therefore, the compression of the input image will affect the prediction accuracy to a certain extent, but considering the model parameters and computation cost, we finally resize to 1000\*1000 from 2448\*2448 before prediction. We package the back-end model into an executable file. And in front-end, we temporarily use QT to design the interface for simple interaction.
 
 ## Visualization
-![image](https://github.com/zhenshen-mla/Satellite-Image-Segmentation/blob/master/examples/input1.jpg)
+![image](https://github.com/zhenshen-mla/Satellite-Image-Segmentation/blob/master/examples/example.jpg)
 
 ## Files
   * `/data/train.txt & val.txt`: index of train samples and test samples;
